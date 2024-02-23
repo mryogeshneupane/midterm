@@ -1,8 +1,7 @@
-/*
-Midterm
-Yogesh Neupane
-Date: 2024/02/23
- */
+// File name: db.js
+// Student’s Name: Yogesh neupane
+// StudentID: 200570557
+// Date: 2023/02/23
 
 const express = require('express');
 const mongoose = require('mongoose');

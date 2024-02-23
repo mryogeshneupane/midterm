@@ -1,67 +1,83 @@
 [
-
-    {
-   
-     "recipeId": 1,
-   
-     "title": "Spaghetti Bolognese",
-   
-     "cuisine": "Italian",
-   
-     "ingredients": ["Ground beef", "Tomato sauce", "Onion", "Garlic", "Spaghetti"],
-   
-     "instructions": "Cook ground beef with onions and garlic. Add tomato sauce and simmer. Serve over cooked spaghetti.",
-   
-     "prepTime": 20,
-   
-     "cookTime": 40
-   
-    },
-   
-    {
-   
-     "recipeId": 2,
-   
-     "title": "Chicken Curry",
-   
-     "cuisine": "Indian",
-   
-     "ingredients": ["Chicken", "Curry powder", "Onion", "Tomato", "Coconut milk"],
-   
-     "instructions": "Saute onions, add curry powder. Add chicken, tomatoes, and coconut milk. Simmer until chicken is cooked.",
-   
-     "prepTime": 15,
-   
-     "cookTime": 30
-   
-    },
-    {
-          "recipeId": 3,
-          "title": "Spaghetti Carbonara",
-          "cuisine": "Italian",
-          "ingredients": ["Spaghetti", "Eggs", "Pancetta", "Parmesan cheese", "Black pepper"],
-          "instructions": "Cook spaghetti. In a separate pan, cook pancetta until crisp. In a bowl, whisk eggs, grated parmesan, and black pepper. Drain spaghetti, add to the pan with pancetta, then pour egg mixture over spaghetti. Toss until coated and creamy.",
-          "prepTime": 10,
-          "cookTime": 15
-        },
-        {
-          "recipeId": 4,
-          "title": "Beef Tacos",
-          "cuisine": "Mexican",
-          "ingredients": ["Ground beef", "Taco seasoning", "Tortillas", "Lettuce", "Tomato", "Cheese", "Sour cream", "Salsa"],
-          "instructions": "Cook ground beef in a pan, add taco seasoning. Warm tortillas. Assemble tacos with beef, lettuce, tomato, cheese, sour cream, and salsa.",
-          "prepTime": 10,
-          "cookTime": 15
-        },
-        {
-          "recipeId": 5,
-          "title": "Vegetable Stir-Fry",
-          "cuisine": "Asian",
-          "ingredients": ["Mixed vegetables (bell peppers, broccoli, carrots, snap peas)", "Garlic", "Ginger", "Soy sauce", "Sesame oil", "Rice vinegar", "Brown sugar", "Cornstarch"],
-          "instructions": "Heat oil in a wok, add minced garlic and ginger. Stir in mixed vegetables. In a bowl, mix soy sauce, sesame oil, rice vinegar, brown sugar, and cornstarch. Pour over vegetables, stir until sauce thickens and vegetables are cooked.",
-          "prepTime": 15,
-          "cookTime": 10
-        }
-      
-   
-   ]
+  {
+    "recipeId": 1,
+    "title": "Spaghetti Bolognese",
+    "cuisine": "Italian",
+    "ingredients": [
+      "Ground beef",
+      "Tomato sauce",
+      "Onion",
+      "Garlic",
+      "Spaghetti"
+    ],
+    "instructions": "Cook ground beef with onions and garlic. Add tomato sauce and simmer. Serve over cooked spaghetti.",
+    "prepTime": 20,
+    "cookTime": 40
+  },
+  {
+    "recipeId": 2,
+    "title": "Chicken Curry",
+    "cuisine": "Indian",
+    "ingredients": [
+      "Chicken",
+      "Curry powder",
+      "Onion",
+      "Tomato",
+      "Coconut milk"
+    ],
+    "instructions": "Saute onions, add curry powder. Add chicken, tomatoes, and coconut milk. Simmer until chicken is cooked.",
+    "prepTime": 15,
+    "cookTime": 30
+  },
+  {
+    "recipeId": 3,
+    "title": "Spaghetti Carbonara",
+    "cuisine": "Italian",
+    "ingredients": [
+      "Spaghetti",
+      "Eggs",
+      "Pancetta",
+      "Parmesan cheese",
+      "Black pepper"
+    ],
+    "instructions": "Cook spaghetti. In a separate pan, cook pancetta until crisp. In a bowl, whisk eggs, grated parmesan, and black pepper. Drain spaghetti, add to the pan with pancetta, then pour egg mixture over spaghetti. Toss until coated and creamy.",
+    "prepTime": 10,
+    "cookTime": 15
+  },
+  {
+    "recipeId": 4,
+    "title": "Beef Tacos",
+    "cuisine": "Mexican",
+    "ingredients": [
+      "Ground beef",
+      "Taco seasoning",
+      "Tortillas",
+      "Lettuce",
+      "Tomato",
+      "Cheese",
+      "Sour cream",
+      "Salsa"
+    ],
+    "instructions": "Cook ground beef in a pan, add taco seasoning. Warm tortillas. Assemble tacos with beef, lettuce, tomato, cheese, sour cream, and salsa.",
+    "prepTime": 10,
+    "cookTime": 15
+  },
+  {
+    "recipeId": 5,
+    "title": "Vegetable Stir-Fry",
+    "cuisine": "Asian",
+    "ingredients": [
+      "Mixed vegetables (bell peppers, broccoli, carrots, snap peas)",
+      "Garlic",
+      "Ginger",
+      "Soy sauce",
+      "Sesame oil",
+      "Rice vinegar",
+      "Brown sugar",
+      "Cornstarch"
+    ],
+    "instructions": "Heat oil in a wok, add minced garlic and ginger. Stir in mixed vegetables. In a bowl, mix soy sauce, sesame oil, rice vinegar, brown sugar, and cornstarch. Pour over vegetables, stir until sauce thickens and vegetables are cooked.",
+    "prepTime": 15,
+    "cookTime": 10
+  }
+]
