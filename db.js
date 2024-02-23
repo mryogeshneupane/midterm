@@ -11,21 +11,18 @@ const mongoURI = process.env.MONGODB_URL;
 const app = express();
 app.use(express.json());
 
-const InitiateMongoServer = async() =>{
 
+// initing server
+const InitiateMongoServer = async() =>{
     try{
         await mongoose.connect(mongoURI,{
-    
-          
         });
-    
     console.log("Successfully Connected to DB!");
     }
     catch(e){
         console.log(e);
         throw e;
     }
-    
     };
     
     module.exports = InitiateMongoServer;

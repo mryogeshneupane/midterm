@@ -6,6 +6,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+// defining recipe schema 
 const RecipeSchema = new Schema({
     recipeId: {type: Number},
     title: {type: String},

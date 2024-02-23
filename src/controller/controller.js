@@ -8,6 +8,8 @@ const mongoose = require('mongoose');
 const express = require('express');
 const Recipe = require('../model/model');
 
+
+// getting all recipes
 exports.getAllRecipe = async(req, res)=>{
     try{
         const recipes = await Recipe.find();
@@ -20,6 +22,7 @@ exports.getAllRecipe = async(req, res)=>{
     }
 };
 
+// getting all ingredients
 exports.getAllIngredients = async(req, res)=>{
     try{
         const ingredients = await Recipe.distinct('ingredients')
@@ -31,6 +34,7 @@ exports.getAllIngredients = async(req, res)=>{
     }
 };
 
+// getting recipes by cuisine
 exports.getRecipesByCuisine = async (req, res) => {
     const cuisine = req.params.cuisine;
     
@@ -42,6 +46,7 @@ exports.getRecipesByCuisine = async (req, res) => {
     }
 };
 
+// getting recipe by id
 exports.findRecipe = async (req, res) => {
     try {
       const id = req.params.recipeId;
@@ -56,7 +61,7 @@ exports.findRecipe = async (req, res) => {
     }
   };
   
-
+// getting ingredient profile
 exports.getIngredientProfile = async (req, res) => {
     const ingredientName = req.params.ingredientName;
     try {

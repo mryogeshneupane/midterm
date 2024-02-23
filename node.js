@@ -58,12 +58,11 @@ const importData = async()=>{
         throw e;
 
     }
-
-    //process.exit();
 };
 
 app.use('/', routes);
 
+// rendering index.html as main homepage
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/src/view/index.html');
 });
